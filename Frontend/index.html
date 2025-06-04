@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Gestión de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="panel">
+        <h2>➕ Nuevo Rol</h2>
+        <input type="text" id="roleName" placeholder="Nombre del rol (ej: Administrador)" required>
+        <input type="text" id="roleDesc" placeholder="Descripción (opcional)">
+        <button onclick="addRole()">Guardar Rol</button>
+    </div>
+
+    <div class="panel">
+        <h2>👥 Nuevo Usuario</h2>
+        <input type="text" id="firstName" placeholder="Nombres" required>
+        <input type="text" id="lastName" placeholder="Apellidos" required>
+        <input type="text" id="identification" placeholder="ID/Número documento" required>
+        <input type="email" id="email" placeholder="correo@empresa.com" required>
+        <select id="userRole" required>
+            <option value="">Seleccionar rol...</option>
+        </select>
+        <button onclick="addUser()">Registrar Usuario</button>
+    </div>
+
+    <div class="panel">
+        <h2>📋 Resumen General</h2>
+        <h3>👤 Usuarios Registrados</h3>
+        <ul id="usersList"></ul>
+
+        <h3>🏷️ Roles del Sistema</h3>
+        <ul id="rolesList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
