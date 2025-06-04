@@ -1,6 +1,10 @@
-# Sistema de Gestión de Usuarios y Roles Parcial 2025
+# Sistema de Gestión de Usuarios y Roles Parcial 2025: Aplicación para administrar usuarios y roles del sistema.
 
-Aplicación para administrar usuarios y roles del sistema.
+
+
+
+Modelo Bd:
+![Modelobd](https://github.com/user-attachments/assets/8e581f9f-4351-49de-b940-dfcd635cf11e)
 
 ## Requisitos
 - Node.js (v14 o superior)
@@ -9,12 +13,13 @@ Aplicación para administrar usuarios y roles del sistema.
 ## Instalación
 1. Clonar el repositorio
 2. En la carpeta backend:
-```bash
 npm install  express sqlite3 body-parser
 En la carpeta backend:
 node server.js
 Servidor corriendo en http://localhost:3000
  # asi puedes inicar el programa 
+
+ 
 
 Sistema de Gestión de Usuarios y Roles Parcial 2025 soluciona el desafío crítico de administración de accesos en sistemas organizacionales, donde se requiere:
 
@@ -33,8 +38,10 @@ Situación típica sin AdminCore:
 Problema Común	Solución de AdminCore
 Roles desorganizados y sin descripción	Sistema formal de registro con nombre y descripción
 Asignación manual propensa a errores	Interfaz intuitiva con validaciones
-Falta de visibilidad global	Panel unificado de usuarios↔roles
+Falta de visibilidad global	Panel unificado de usuarios↔roles![Uploading Modelobd.png…]()
+
 Procesos lentos de onboarding	Creación de usuarios en 30 segundos
+
 🚀 Beneficios Clave
 ✔ Reducción del 90% en errores de asignación de permisos
 ✔ Tiempo 5x más rápido para gestionar accesos
@@ -44,28 +51,15 @@ Procesos lentos de onboarding	Creación de usuarios en 30 segundos
 📊 Caso de Uso Real
 Escenario:
 Una empresa mediana (50-200 empleados) con:
-
 3 niveles jerárquicos
-
 5 departamentos
-
 Rotación mensual de ~5 colaboradores
 
-Resultados con AdminCore:
 
-2 horas semanales ahorradas en gestión manual
 
 ## 🔗 Repositorio Complementario
-- Backend: [https://github.com/tu-usuario/admincore-backend](https://github.com/tu-usuario/admincore-backend)
-- Frontend: [https://github.com/tu-usuario/admincore-frontend](https://github.com/tu-usuario/admincore-frontend)
+- Backend: (https://github.com/JuanOniix/Parcial2025_BackEnd.git)
+- Frontend:(https://github.com/JuanOniix/Parcial2025_FrontEnd.git)
 
-## 🖥️ Ejecución Local
-1. Clona ambos repositorios
-2. Instala dependencias del backend:
-```bash
-cd admincore-backend
-npm install
 
-0 incidentes de seguridad por permisos incorrectos
 
-Onboarding de nuevos empleados acelerado en 75%
